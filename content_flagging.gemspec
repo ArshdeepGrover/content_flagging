@@ -7,16 +7,16 @@ Gem::Specification.new do |spec|
   spec.email         = ['arsh199820@gmail.com']
   spec.summary       = 'The acts_as_paranoid for content moderation - automatic flagging system for Rails'
   spec.description   = 'A powerful Rails gem that automatically hides inappropriate content when flagged. Like acts_as_paranoid for deleted records, acts_as_flaggable hides flagged content from default scopes with configurable thresholds.'
-  spec.homepage      = 'https://github.com/arshdeepsingh/content_flagging'
+  spec.homepage      = 'https://github.com/ArshdeepGrover/content_flagging'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.7.0'
   
   spec.metadata = {
-    'homepage_uri' => 'https://github.com/arshdeepsingh/content_flagging',
-    'source_code_uri' => 'https://github.com/arshdeepsingh/content_flagging',
-    'changelog_uri' => 'https://github.com/arshdeepsingh/content_flagging/blob/main/CHANGELOG.md',
-    'bug_tracker_uri' => 'https://github.com/arshdeepsingh/content_flagging/issues',
-    'documentation_uri' => 'https://github.com/arshdeepsingh/content_flagging/blob/main/README.md',
+    'homepage_uri' => 'https://github.com/ArshdeepGrover/content_flagging',
+    'source_code_uri' => 'https://github.com/ArshdeepGrover/content_flagging',
+    'changelog_uri' => 'https://github.com/ArshdeepGrover/content_flagging/blob/main/CHANGELOG.md',
+    'bug_tracker_uri' => 'https://github.com/ArshdeepGrover/content_flagging/issues',
+    'documentation_uri' => 'https://github.com/ArshdeepGrover/content_flagging/blob/main/README.md',
     'rubygems_mfa_required' => 'true'
   }
   
