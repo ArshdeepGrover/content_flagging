@@ -1,0 +1,13 @@
+class CreateContentFlags < ActiveRecord::Migration[7.1]
+  def change
+    create_table :content_flags do |t|
+      t.references :flaggable, polymorphic: true, null: false, index: true
+      t.references :flagged_by, polymorphic: true, null: true, index: true
+      t.datetime :flagged_at, null: false
+      t.timestamps
+    end
+    
+    add_index :content_flags, [:flaggable_type, :flaggable_id, :flagged_by_type, :flagged_by_id], 
+              unique: true, name: 'unique_flag_per_entity'
+  end
+end
