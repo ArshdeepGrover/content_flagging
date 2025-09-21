@@ -1,8 +1,14 @@
 # 🚩 ContentFlagging
 
-> **The `acts_as_paranoid` for content moderation**
+[![Gem Version](https://badge.fury.io/rb/content_flagging.svg)](https://badge.fury.io/rb/content_flagging)
+[![Ruby](https://img.shields.io/badge/ruby-%3E%3D%202.7.0-ruby.svg)](https://ruby-lang.org)
+[![Rails](https://img.shields.io/badge/rails-%3E%3D%206.0-red.svg)](https://rubyonrails.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/website-content--flagging.netlify.app-blue)](https://content-flagging.netlify.app)
 
-A powerful Rails gem that automatically hides inappropriate content when it gets flagged too many times. Just like `acts_as_paranoid` hides deleted records, `acts_as_flaggable` hides flagged content from your default scopes.
+> **Smart community-driven content moderation**
+
+A powerful Rails gem that lets your users moderate themselves. When content gets flagged enough times, it automatically disappears from your default scopes - keeping your platform clean without manual intervention.
 
 ## ⚡ Quick Start
 
@@ -137,6 +143,14 @@ end
 ## 🤝 Contributing
 
 Found a bug? Want a feature? PRs welcome!
+
+## 🌐 Website
+
+Visit [content-flagging.netlify.app](https://content-flagging.netlify.app) for:
+- 📖 Complete documentation
+- 🚀 Interactive demo
+- 🎪 Real-world examples
+- 💡 Best practices
 
 ## 📄 License
 

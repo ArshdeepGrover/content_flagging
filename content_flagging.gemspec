@@ -5,19 +5,27 @@ Gem::Specification.new do |spec|
   spec.version       = ContentFlagging::VERSION
   spec.authors       = ['Arshdeep Singh']
   spec.email         = ['arsh199820@gmail.com']
-  spec.summary       = 'The acts_as_paranoid for content moderation - automatic flagging system for Rails'
-  spec.description   = 'A powerful Rails gem that automatically hides inappropriate content when flagged. Like acts_as_paranoid for deleted records, acts_as_flaggable hides flagged content from default scopes with configurable thresholds.'
-  spec.homepage      = 'https://github.com/ArshdeepGrover/content_flagging'
+  spec.summary       = 'Community-driven content moderation for Rails applications'
+  spec.description   = <<~DESC
+    ContentFlagging provides automatic content moderation for Rails applications through community flagging.
+    When content receives too many flags, it's automatically hidden from default scopes - just like acts_as_paranoid
+    for deleted records. Features configurable thresholds, thread-safe counters, polymorphic flagging, and
+    comprehensive admin tools. Perfect for user-generated content platforms.
+  DESC
+  spec.homepage      = 'https://content-flagging.netlify.app'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.7.0'
   
   spec.metadata = {
-    'homepage_uri' => 'https://github.com/ArshdeepGrover/content_flagging',
+    'homepage_uri' => 'https://content-flagging.netlify.app',
     'source_code_uri' => 'https://github.com/ArshdeepGrover/content_flagging',
     'changelog_uri' => 'https://github.com/ArshdeepGrover/content_flagging/blob/main/CHANGELOG.md',
     'bug_tracker_uri' => 'https://github.com/ArshdeepGrover/content_flagging/issues',
-    'documentation_uri' => 'https://github.com/ArshdeepGrover/content_flagging/blob/main/README.md',
-    'rubygems_mfa_required' => 'true'
+    'documentation_uri' => 'https://content-flagging.netlify.app',
+    'wiki_uri' => 'https://github.com/ArshdeepGrover/content_flagging/wiki',
+    'funding_uri' => 'https://github.com/sponsors/ArshdeepGrover',
+    'rubygems_mfa_required' => 'true',
+    'allowed_push_host' => 'https://rubygems.org'
   }
   
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
