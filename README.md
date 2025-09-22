@@ -1,6 +1,6 @@
 # 🚩 ContentFlagging
 
-[![Gem Version](https://badge.fury.io/rb/content_flagging.svg)](https://badge.fury.io/rb/content_flagging)
+[![Gem Version](https://badge.fury.io/rb/content_flagging.svg)](https://rubygems.org/gems/content_flagging)
 [![Ruby](https://img.shields.io/badge/ruby-%3E%3D%202.7.0-ruby.svg)](https://ruby-lang.org)
 [![Rails](https://img.shields.io/badge/rails-%3E%3D%206.0-red.svg)](https://rubyonrails.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -144,11 +144,16 @@ end
 
 Found a bug? Want a feature? PRs welcome!
 
-## 🌐 Website
+## 🌐 Links
 
+- **Website**: [content-flagging.netlify.app](https://content-flagging.netlify.app)
+- **RubyGems**: [rubygems.org/gems/content_flagging](https://rubygems.org/gems/content_flagging)
+- **GitHub**: [github.com/ArshdeepGrover/content_flagging](https://github.com/ArshdeepGrover/content_flagging)
+
+### 🚀 Interactive Demo
 Visit [content-flagging.netlify.app](https://content-flagging.netlify.app) for:
 - 📖 Complete documentation
-- 🚀 Interactive demo
+- 🎯 Live interactive demo
 - 🎪 Real-world examples
 - 💡 Best practices
 

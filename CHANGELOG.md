@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2025-01-15
+
+### Added
+- Professional website at https://content-flagging.netlify.app
+- Interactive demo and comprehensive documentation
+- Dark mode support for website
+- Modern green/teal color scheme
+
+### Updated
+- Homepage URL to point to live website
+- Documentation links to interactive site
+- README with proper links to website and RubyGems
+
 ## [1.0.1] - 2025-09-20
 
 ### Fixed
